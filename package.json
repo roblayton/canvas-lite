@@ -1,0 +1,24 @@
+{
+  "name": "canvas-lite",
+  "version": "1.0.0",
+  "description": "Small canvas library for testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roblayton/canvas-lite"
+  },
+  "keywords": [
+    "html5",
+    "canvas",
+    "javascript"
+  ],
+  "author": "Rob Layton <hire@roblayton.com> (http://www.roblayton.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/roblayton/canvas-lite/issues"
+  },
+  "homepage": "https://github.com/roblayton/canvas-lite"
+}
