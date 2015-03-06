@@ -1,2 +1,2 @@
 # canvas-lite
-Small canvas library for testing
+Small canvas library for use with benchmarking
