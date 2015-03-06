@@ -1,12 +1,14 @@
 'use strict';
 
+var Shape = require('./Shape');
+
 var Ball = function(options) {
   var self = this;
   var options = options !== undefined ? options : {};
-  this.x = options.x !== undefined ? options.x : 0;
-  this.y = options.y !== undefined ? options.y : 0;
+
+  Shape.call(this, options);
+
   this.radius = options.radius !== undefined ? options.radius : 10;
-  this.fillStyle = options.fillStyle !== undefined ? options.fillStyle : '#000';
 
   this.render = function(ctx) {
     ctx.beginPath();
@@ -15,7 +17,5 @@ var Ball = function(options) {
     ctx.fill();
   };
 };
-
-Ball.prototype
 
 module.exports = Ball;
